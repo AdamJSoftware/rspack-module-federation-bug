@@ -1,0 +1,31 @@
+{
+  "name": "remote",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "NODE_ENV=development rspack serve",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.11.1",
+    "@mantine/hooks": "^7.11.1",
+    "@module-federation/enhanced": "^0.2.5",
+    "@module-federation/runtime": "^0.2.5",
+    "@module-federation/sdk": "^0.2.5",
+    "@rspack/cli": "^1.0.0-alpha.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.0.0-alpha.5",
+    "@rsbuild/plugin-react": "1.0.0-alpha.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "css-loader": "^7.1.2",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.5.2"
+  }
+}
